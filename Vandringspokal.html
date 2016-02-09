@@ -4,31 +4,30 @@
 <html>
 
     <head>
-      <meta charset="utf-8"/>
-      <link href="Main.css" rel="stylesheet">
-      <!-- dessa två bitar nedanför är koden för bootstrap -->
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-      <!-- Optional theme -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-      <title>PalermoBK</title>
-  	  <h1>PALEEERMO</h1>
+        <meta charset="utf-8"/>
+        <link href="Main.css" rel="stylesheet">
+        <title>PalermoBK</title>
+        <h1><a href="index.html">PBK</a></h1> <!-- tog bort bootstrap, fuckade lite med designen, kan absolut läggas till igen om ni vill -->
     </head>
 
     <body>
-    	<center>
+    	<div id"frame"> <!-- mainframen, alltså menyn plus centergrejen tillsammans -->
+        <nav id="left"> <!-- menyn, hela den containern alltså-->
       	<ul>
+          <h4>Meny</h4> 
         	<li><a href="Index.html">Om Palermo</a></li>
         	<li><a href="Medlemmar.html">Medlemmar</a></li>
-        	<li><a href=>Palermos Vandringspokal</a></li>
+        	<li><a href="Vandringspokal.html">Palermos Vandringspokal</a></li>
         	<li><a href=>Statistik i Ölhävande</a></li>
       	</ul>
+      </nav>
+      <div id="center"> <!-- centercontaiern, hela-->
       	<h2> Resultat från Pingisturneringen </h2>
       	<img src="ResultatPingis.jpg">
       	<h2>Tabellen vandringspokalen</h2>
       	<img src="Tabell.jpg"</h2>
-    	</center>
+    	</div>
+    </div>
 
       <!-- detta är koden för javascript, scripts läggs alltid längst ner i bodyn för att inte sega ner hemsidans laddningstider -->
       <!-- Latest compiled and minified JavaScript -->
