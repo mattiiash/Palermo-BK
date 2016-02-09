@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="sv-se">
-<meta charset="utf-8"/>
-<link href="Palermo.css" rel="stylesheet">
-<html>
-<head>
-	<h1>PALEEERMO</h1>
-</head>
-<style>
 ul {
     list-style-type: none;
     margin: 0;
@@ -44,22 +35,13 @@ li a {
 li a:hover {
     background-color: #555;
     color: white;
-}</style>
-<body>
-	<center>
-	<ul>
-  	<li><a href=>Om Palermo</a></li>
-  	<li><a href="Medlemmar.html">Medlemmar</a></li>
-  	<li><a href="VandringsPokal.html">Palermos Vandringspokal</a></li>
-  	<li><a href=>Statistik i Ölhävande</a></li>
-	</ul>
-	<p>Här hänger palerkan bk boys och knackar</p>
-	<h2>palerkans favoriter</h2>
-	<h2> BIRA BIRA BIRA </h2>
-	<li>bärs</li>
-	<h3>Mateo vill säga hej</h3>
-	<p> HEJ VIKTOR </p>
-	<img src="palermo.jpg" width="355" height="255" border="0" ALT="ali is life">
-	</center>
-</body>
-</html>
+}
+
+li { 
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
