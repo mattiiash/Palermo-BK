@@ -6,24 +6,23 @@
     <head>
         <meta charset="utf-8"/>
         <link href="Main.css" rel="stylesheet">
-        <!-- dessa två bitar nedanför är koden för bootstrap -->
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
         <title>PalermoBK</title>
-    	<h1>PALEEERMO</h1>
+        <h1><a href="index.html">PBK</a></h1> <!-- tog bort bootstrap, fuckade lite med designen, kan absolut läggas till igen om ni vill -->
     </head>
 
     <body>
-    	<center>
-        	<ul>
-              	<li><a href="Index.html">Om Palermo</a></li>
-              	<li><a href=>Medlemmar</a></li>
-              	<li><a href="VandringsPokal.html">Palermos Vandringspokal</a></li>
-              	<li><a href=>Statistik i Ölhävande</a></li>
-        	</ul>
+    	
+        <div id="frame"> <!-- mainframen, alltså menyn plus centergrejen tillsammans -->
+        <nav id="left"> <!-- menyn, hela den containern alltså-->
+              <ul>
+              <h4>Meny</h4>  
+              <li><a href="Index.html">Om Palermo</a></li>
+              <li><a href="Medlemmar.html">Medlemmar</a></li>
+              <li><a href="VandringsPokal.html">Palermos Vandringspokal</a></li>
+              <li><a href=>Statistik i Ölhävande</a></li>
+              </ul>
+           </nav>
+           <div id="center"> <!-- centercontaiern, hela-->
         	<p>MEDLEMMAR</p>
         	<li>David Ledenstam</li>
         	<li>Viktor Hansen</li>
@@ -44,7 +43,8 @@
         	<li>Johannes Stensfelt</li>
         	<li>Joakim Langelaar</li>
         	<img src="palermo.jpg" width="355" height="255" border="0" ALT="ali is life">
-    	</center>
+        </div>
+    	</div>
 
         <!-- detta är koden för javascript, scripts läggs alltid längst ner i bodyn för att inte sega ner hemsidans laddningstider -->
         <!-- Latest compiled and minified JavaScript -->
