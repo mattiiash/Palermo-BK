@@ -3,7 +3,7 @@
    
     width: 1000px;
     background-color: #ffbf80;    
-    height: 50px; 
+    height: 42px; 
     border: 3px double black;
     text-decoration: none;    
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -79,7 +79,7 @@ li a:hover {
     color: black;
 }
 
-li { 
+li b{ /*Gav medlemslistan ett namn */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
@@ -87,15 +87,20 @@ li {
     font-weight: 500;
     line-height: 26px;
     text-align: left;
-}
+    color: black;
 
+}
+li b:hover{
+    background-color: #ffe5cc;
+    color: black;
+}
 
 #center {
     background-color: #ffbf80;
     width: 700px;
     position: relative;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     border: 3px double black;
     text-decoration: none;    
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
