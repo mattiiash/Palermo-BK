@@ -1,7 +1,7 @@
 #left {
 
    
-    width: 1000px;
+    width: 100%;
     background-color: #ffbf80;    
     height: 42px; 
     border: 3px double black;
@@ -12,18 +12,23 @@
     font-variant: normal;
     font-weight: 500;
     margin: auto;
+    position: fixed;
+    top:35px;
     
 
 }
 ul{
 
-    width: 180px;
+    width: 100%;
     list-style-type: none;
     margin: auto;
     margin-top: 40px;    
     padding: 0px;
     display: inline;
     overflow: hidden;
+    position: fixed;
+    top:0;
+
 
 }
 
@@ -68,7 +73,8 @@ li a {
     font-variant: normal;
     font-weight: 500;
     line-height: 26px;
-    text-align: center;     
+    text-align: center;         
+
     
 
 }    
@@ -76,8 +82,9 @@ li a {
 /* Byter färg vid hover */
 li a:hover {
     background-color: #ffe5cc;
-    color: black;
+    
 }
+
 
 li b{ /*Gav medlemslistan ett namn */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -100,7 +107,7 @@ li b:hover{
     width: 700px;
     position: relative;
     padding: 10px;
-    text-align: left;
+    text-align: center;
     border: 3px double black;
     text-decoration: none;    
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -110,7 +117,7 @@ li b:hover{
     font-weight: 500;
     line-height: 26px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 body {
