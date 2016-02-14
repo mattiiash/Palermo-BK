@@ -1,11 +1,9 @@
 #left {
 
    
-    width: 250px;
+    width: 100%;
     background-color: #ffbf80;    
-    height: 300px; 
-    position: fixed; /* Låser menyn */
-    overflow: auto; /* Gör den scrollbar*/
+    height: 42px; 
     border: 3px double black;
     text-decoration: none;    
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -13,29 +11,39 @@
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
+    margin: auto;
+    position: fixed;
+    top:0px;
+    z-index: 10;
     
 
 }
 ul{
 
-    width: 180px;
+    width: 100%;
     list-style-type: none;
     margin: auto;
-    margin-top: 40px;    
+    margin-top: 5px;    
     padding: 0px;
+    display: inline;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+
 
 }
 
 h4{
 
-    margin: 0;
+    margin: auto;
     padding-bottom: 5px;
 }
 
 h1 a:hover{
 
     background-color: #ffe5cc;
-    color: black;
+    color: white;
+    text-align: center;
      
 
 }
@@ -56,42 +64,50 @@ h1 a{
 li a {
 
     
-    display: block;
+    float: left;
     color: #000;
-    padding: 8px 0 8px 0;
+    padding: 8px 50px 8px 50px;
     text-decoration: none;    
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 15px;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 15px;
+    text-align: center;         
+
+    
 
 }    
     
 /* Byter färg vid hover */
 li a:hover {
     background-color: #ffe5cc;
-    color: black;
+    
 }
 
-li { 
+
+li b{ /*Gav medlemslistan ett namn */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
     line-height: 26px;
-}
+    text-align: left;
+    color: black;
 
+}
+li b:hover{
+    background-color: #ffe5cc;
+    color: black;
+}
 
 #center {
     background-color: #ffbf80;
     width: 700px;
     position: relative;
-    left: 500px;
     padding: 10px;
-    margin: 10px;
     text-align: center;
     border: 3px double black;
     text-decoration: none;    
@@ -101,9 +117,21 @@ li {
     font-variant: normal;
     font-weight: 500;
     line-height: 26px;
+    margin: auto;
+    margin-top: 100px;
 }
 
 body {
 
     background-image: url("beer.jpg");
 }
+
+#slide {
+
+    width: 450px;
+    height: 270px;
+    position: relative;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
