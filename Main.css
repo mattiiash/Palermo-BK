@@ -125,3 +125,13 @@ body {
 
     background-image: url("beer.jpg");
 }
+
+#slide {
+
+    width: 450px;
+    height: 270px;
+    position: relative;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
